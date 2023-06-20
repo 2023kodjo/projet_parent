@@ -53,7 +53,7 @@
     </div>
     <div class="mt-3 row">
       <div class="offset-2 col-md-8 text-center">
-      <a href="authentification.php"><button type="button" class="btn btn-danger"> Parents </button></a>
+      <a href="administrateur.php"><button type="button" class="btn btn-danger"> Parents </button></a>
       </div>
     </div>
     <br>
