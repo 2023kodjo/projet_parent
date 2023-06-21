@@ -12,7 +12,10 @@
 
 <body>
 <div class="container EN">
-  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="row center offset-5 col-md-2 mt-2">
+            <a href="liste.php"><button type="button" class="btn btn-outline-light">Afficher la liste</button></a>
+       </div>
  <div class="row">
             <div class=" text-center fs-2 bg-danger text-white mt-3">
                 Bravo! Inscription éffectuée avec succès!
@@ -22,7 +25,6 @@
 		</div>
  </div>
  
-
  <?php
     session_start();
     require 'connexion.php'; 

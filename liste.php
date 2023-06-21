@@ -19,6 +19,7 @@
             <h2><img src="image/Black Blue Yellow Simple Oniversity Graduate School On Logo Templates.png" alt="" width="50px" height="50px"> Listes des élèves <img src="image/black orange minimalist student star logo.png" alt="" width="50px" height="50px"></h2>
           </div>
     </div>
+    <br>
     <table class="table table-striped">
 				<tr>
 				    <th>N°</th>
@@ -28,13 +29,15 @@
                     <th>Classe</th>
                     <th>Trimestre</th>
                     <th>Moyenne</th>
-					<th>Parent</th><th></th>
+                    <th>Parent</th>
+            
+					<th></th><th class="col bg-primary text-white text-center">Action</th><th></th>
+                    
 				</tr>
-        </table>
-</div>
-			       <?php
+
+
+<?php
                 require 'connexion.php'; 
-                require 'footer.php'; 
                 $requete = "SELECT id, nom, prenom, annee_scolaire, classe, trimestre, moyenne, parent FROM eleve";
                 $result = $conn->query($requete);
                 if($result->rowcount()>0){
@@ -44,7 +47,7 @@
                         echo "<tr>";
                         echo "<td>" . $num. "</td>";
                         echo "<td>" . $row["nom"] . "</td>";
-                        echo "<td>" . $row["prenom"]  . "</td>";
+                        echo "<td>" . $row["prenom"] . "</td>";
                         echo "<td>" . $row["annee_scolaire"] . "</td>";
                         echo "<td>" . $row["classe"] . "</td>"; 
                         echo "<td>" . $row["trimestre"] . "</td>";
@@ -65,8 +68,14 @@
                 } else{
                     echo "aucun donnée trouvée";
                 }
-                $conn=NULL;
+                $conn=NULL;              
 ?>
 
+
+</table>
+</div>
+<?php
+require 'footer.php'; 
+?>
 </body>
 </html>

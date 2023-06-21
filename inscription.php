@@ -18,11 +18,11 @@
   
     <div class="container s1"> 
        <br>
-         <div class="row text-center bg-danger offset-2 col-md-8 text-white">
+         <div class="row text-center bg-danger offset-1 col-md-10 text-white">
             <h3> Formulaire d'inscription</h3>
          </div>
          <br>
-      <form class=" offset-3 col-md-6 form text-white" method="post" action="enregistrement.php">
+      <form class=" offset-3 col-md-6 form text-white" method="post" action="enreg.php">
         <br>
         <div class="row  offset-2 col-md-8">
           <label for="nom">Nom</label>

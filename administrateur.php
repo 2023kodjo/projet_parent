@@ -50,7 +50,10 @@
             </button></a>
         </div>
       </div>
-
+     
+      <div class="col bg-success">
+      <a href="index.php"><button type="button" class="btn btn-light col-md-2 mt-2 mb-2"><img src="../projet_application_ufr/image/icone 2.png" alt="" width="20%"> Go Back</button></a>
+      </div>
 
 
     </div>

@@ -18,6 +18,9 @@
       <h6>Lycée<br>SAINT-JEAN</h6><img src="image/Black Blue Yellow Simple Oniversity Graduate School On Logo Templates.png" alt="" width="40px" height="40px">
       <img src="image/black orange minimalist student star logo.png" alt="" width="40px" height="40px"> <h6>EDITSCHOOL</h6> 
       </div>
+      <div class="col bg-success">
+      <a href="index.php"><button type="button" class="btn btn-light col-md-2"><img src="../projet_application_ufr/image/icone 2.png" alt="" width="20%"> Go Back</button></a>
+      </div>
     </div>
   </div>
 <div class="container SA">
@@ -40,7 +43,7 @@
         </div>
         <div class="btn">
         <button class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connexion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-        <button class="button2">S'inscrire</button>
+        <a href="inscription.php"><button class="button2">S'inscrire</button></a>
         </div>
         <button class="button3">Mot de passe oublié</button>
     </form>
